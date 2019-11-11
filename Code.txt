@@ -1,7 +1,7 @@
-# Rock-Paper-Scissors-Lizard-Spock
-Rock Paper Scissors Lizard Spock Game that can be run on a microcontroller with Serial Terminal
+// Rock-Paper-Scissors-Lizard-Spock
+// Rock Paper Scissors Lizard Spock Game that can be run on a microcontroller with Serial Monitor
 
-// Amount of Memory assigned for the Microcontroller t0 accecpt characters in the serial terminal is made
+// Amount of Memory assigned for the Microcontroller to accecpt characters in the Serial Monitor is made
 
 char command[0x20];
 
@@ -184,7 +184,7 @@ void spock(void) {
 
 
  //The Computer creates a number between 0 - 5 and a 'choice' for the computer is assisnged based on the number generated
- // User enters their choice into Serial Terminal and the Computer generates a random number triggering a function 
+ // User enters their choice into Serial Monitor and the Computer generates a random number triggering a function 
 // The winner is decided based on the random number generated and the function assigned to that number and the user input
 // The game resets after  and another choice can be made 
 
